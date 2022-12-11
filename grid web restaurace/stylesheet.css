@@ -1,0 +1,122 @@
+body, html {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    font-family: "HelveticaNowDisplay Bold", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    outline: none;
+    border: none;
+
+    box-sizing: border-box;
+}
+/* ---- header ---- */
+#imghead{
+    padding-left: 53rem;
+    max-width: 55%;
+
+}
+/* ---- header ---- */
+
+/* ---- navbar ---- */
+nav {
+
+    text-align: center;
+
+    background-color: white;
+}
+
+
+nav a {
+
+    padding: 0 2rem 0 1rem;
+
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    text-decoration: none;
+
+    color: black;
+}
+
+nav a:hover {
+    color: #656565;
+
+    text-decoration: underline;
+}
+/* ---- navbar ---- */
+
+
+
+/* ---- nabidka ---- */
+#nabidka {
+    width: 100%;
+
+    display: grid;
+    text-align: center;
+
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    padding: 4rem 1rem 2rem 1rem;
+}
+
+#nabidka a:hover{
+    text-decoration: underline;
+}
+
+#nabidka img {
+    width: 100%;
+}
+
+#nabidka h2 {
+    color: white;
+    background-color: black;
+
+    padding: 1rem 0 1rem 2rem;
+}
+/* ---- nabidka ---- */
+
+/* ---- footer ---- */
+.footer {
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    background-color: black;
+    color: #6f6f6f;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 12px 1fr 12px 1fr;
+    grid-template-columns: 1fr;
+    font-size: 12px;
+    margin-top: auto;
+}
+.footer-filler {
+    width: 100%;
+    height: 200px;
+}
+.copyright {
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+}
+.info {
+    margin-bottom: 100px;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+.footer-separator {
+    margin-left: 25px;
+    margin-right: 25px;
+    border-left: 1px solid lightblue;
+    width: 1px;
+    height: 12px;
+}
+/* ---- footer ---- */
